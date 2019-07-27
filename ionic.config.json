@@ -1,6 +1,8 @@
 {
   "name": "IonicNebular",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "3546618a"
 }
