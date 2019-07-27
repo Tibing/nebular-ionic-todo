@@ -1,0 +1,20 @@
+@import '../../themes';
+
+nb-card-header, nb-card-footer {
+  box-sizing: border-box;
+}
+
+nb-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.no-items {
+  color: nb-theme(text-hint-color);
+  justify-content: center;
+}
+
+nb-layout ::ng-deep nb-layout-header.fixed ~ .layout-container {
+  padding-top: 4rem;
+}
